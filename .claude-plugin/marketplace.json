@@ -1,16 +1,16 @@
 {
-  "name": "claude-code-utils",
+  "name": "my-claude-code-setup",
   "owner": {
     "name": "komine"
   },
   "metadata": {
-    "description": "Claude Code permissions optimizer and utility skills"
+    "description": "Claude Code skills, agents, and commands collection"
   },
   "plugins": [
     {
-      "name": "claude-code-utils",
+      "name": "my-claude-code-setup",
       "source": "./",
-      "description": "Optimize Claude Code permissions in settings files. Deduplicate and normalize allow/deny rules, consolidate via safe wildcards, resolve global/project conflicts, and produce a reviewable diff plan.",
+      "description": "Claude Code skills, agents, and commands collection",
       "author": {
         "name": "komine"
       },
@@ -19,7 +19,7 @@
       "license": "MIT",
       "keywords": ["claude-code", "permissions", "optimizer"],
       "category": "workflow",
-      "tags": ["permissions", "optimizer", "settings"]
+      "tags": ["permissions", "optimizer", "skills"]
     }
   ]
 }

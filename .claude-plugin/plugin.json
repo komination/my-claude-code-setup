@@ -1,13 +1,15 @@
 {
-  "name": "claude-code-utils",
+  "name": "my-claude-code-setup",
   "version": "0.1.0",
-  "description": "Claude Code permissions optimizer and utility skills",
+  "description": "Claude Code skills, agents, and commands collection",
   "author": {
     "name": "komine"
   },
-  "license": "MIT",
   "homepage": "https://github.com/komination/my-claude-code-setup",
   "repository": "https://github.com/komination/my-claude-code-setup",
+  "license": "MIT",
   "keywords": ["claude-code", "permissions", "optimizer"],
-  "skills": ["./skills/"]
+  "skills": ["./skills/"],
+  "agents": [],
+  "commands": []
 }
