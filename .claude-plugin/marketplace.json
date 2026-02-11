@@ -1,0 +1,25 @@
+{
+  "name": "claude-code-utils",
+  "owner": {
+    "name": "komine"
+  },
+  "metadata": {
+    "description": "Claude Code permissions optimizer and utility skills"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-utils",
+      "source": "./",
+      "description": "Optimize Claude Code permissions in settings files. Deduplicate and normalize allow/deny rules, consolidate via safe wildcards, resolve global/project conflicts, and produce a reviewable diff plan.",
+      "author": {
+        "name": "komine"
+      },
+      "homepage": "https://github.com/komination/my-claude-code-setup",
+      "repository": "https://github.com/komination/my-claude-code-setup",
+      "license": "MIT",
+      "keywords": ["claude-code", "permissions", "optimizer"],
+      "category": "workflow",
+      "tags": ["permissions", "optimizer", "settings"]
+    }
+  ]
+}
