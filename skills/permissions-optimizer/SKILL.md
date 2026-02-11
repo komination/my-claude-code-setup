@@ -1,4 +1,3 @@
-```md
 ---
 name: permissions-optimizer
 description: Optimize Claude Code permissions in settings files. Deduplicate and normalize allow/deny rules, consolidate via safe wildcards, resolve global/project conflicts, and produce a reviewable diff plan with minimal-risk defaults. Triggers: "optimize permissions", "permission optimizer", "clean permissions", "tidy settings.json", "permissions policy".
@@ -272,4 +271,3 @@ env                     # denied if env leak restriction chosen
 - [ ] No environment-specific absolute paths in shared settings
 - [ ] Proposed changes are easy to review (clear plan + reasons + risks)
 - [ ] Both positive and negative verification pass in a fresh session
-```
